@@ -35,7 +35,7 @@ func main() {
 	//修改
 	cityMap["China"] = "xian"
 
-	fmt.Println("---------------")
+	fmt.Println("--------------2-")
 	ChangeValue(cityMap)
 	//遍历
 	printMap(cityMap)
