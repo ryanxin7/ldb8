@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 // 声明一种新的数据类型 myint  ，是 int 的一个别名
-type myint int
+type Myint int
+
+var x Myint = 10
 
 // 定义一个结构体
 type Book struct {
@@ -23,6 +25,7 @@ func changeBook2(book *Book) {
 
 func main() {
 
+	fmt.Println(x)
 	/*
 		var a myint = 10
 		fmt.Println("a=", a)
